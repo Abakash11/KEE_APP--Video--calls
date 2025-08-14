@@ -5,7 +5,7 @@ import { axiosInstance } from '../lib/axios.mjs'
 import { UsersIcon } from 'lucide-react'
 import { Link } from 'react-router-dom';
 import FriendCard from '../component/FriendCard'
-import RecomendedFnd from '../component/recomendedFnd'
+import RecomendedFnd from '../component/RecomendedFnd'
 
 
 export default function Homepage() {
