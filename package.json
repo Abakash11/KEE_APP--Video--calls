@@ -1,0 +1,14 @@
+{
+  "name": "kee_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm install --prefix serverSide && npm install --prefix clientSide && npm run build --prefix clientSide",
+    "start": "npm run start --prefix serverSide"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
